@@ -7,7 +7,10 @@ public class Main {
 
         int choice = Choice.getChoice();
 
-        Result.ending(choice);
-
+        if (choice == -1){
+            System.out.println("The angry dragons exit their caves and gobble you down violently.");
+        } else {
+            Result.ending(choice);
+        }
     }
 }
