@@ -1,5 +1,3 @@
-package com.company;
-
 public class Result {
     public static void ending(int choice){
 
